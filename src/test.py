@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
                     
     def testUusarios(self):
         self.assertEqual(self.test.getUsuario("cad"),False,"El ID del usuario debe ser entero")
-        self.assertEqual(self.test.getVideojuego(1),str('Fernando Flores'),"El ID del usuario es correcto y es devuelto")
+        self.assertEqual(self.test.getUsuario(1),str('Fernando Flores'),"El ID del usuario es correcto y es devuelto")
 
 
 if __name__ == '__main__':
