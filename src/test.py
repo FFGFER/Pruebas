@@ -4,7 +4,7 @@ import unittest
 import videojuegos
 import usuarios
 
-class Test(unittest.TesCase):
+class Test(unittest.TestCase):
 
     test = videojuegos.Videojuegos()
 
