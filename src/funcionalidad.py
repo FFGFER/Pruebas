@@ -28,7 +28,7 @@ class Funcionalidad:
 		
 		try:
 			idusr = abs(int(idusr))
-			usuario = self.usr[idusr-1][0]
+			usuario = self.usr["Usuario"][idusr-1]["Nombre"]
 		
 		except:
 			usuario = False
