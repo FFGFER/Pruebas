@@ -1,2 +1,5 @@
 test:
-	cd ./src/ && python test.py
+	cd ./src/ 
+	python testvg.py
+	python testusr.py
+	
